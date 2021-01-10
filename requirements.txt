@@ -1,0 +1,6 @@
+pyrogram
+tgcrypto
+youtube_dl
+gTTS
+pyaml
+youtube-search-python
