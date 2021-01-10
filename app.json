@@ -1,5 +1,5 @@
 {
-    "name": "AiVoiceChat-Bot",
+    "name": "Ai-VoiceChat-Bot",
     "description": "Ai Voice Chat Bot",
     "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
     "keywords": [
@@ -31,10 +31,7 @@
         "description": "Get this from https://my.telegram.org",
         "value": "1f6921c27bf6cd01aba471a14ff33bcb",
         "required": true
-      },
-    "addons": [
-      {
-        "plan": "heroku-postgresql"
       }
-    ]
+  },
+  "stack": "container"
 }
