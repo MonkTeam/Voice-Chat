@@ -34,7 +34,7 @@
       },
       "GROUP": {
         "description": "The ID of the group where your bot streams.,
-        "value": "/app/downloads",
+        "value": "-1001176749967",
         "required": false
       }
     },
