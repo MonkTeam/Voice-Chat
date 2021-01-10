@@ -35,7 +35,6 @@
       "GROUP": {
         "description": "The ID of the group where your bot streams.,
         "value": "-1001176749967",
-        "required": false
       },
     "addons": [
       {
