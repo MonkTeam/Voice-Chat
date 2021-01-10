@@ -5,7 +5,7 @@ RUN chmod 777 /usr/src/app
 
 RUN apt-get -qq update && \
     apt-get install -y software-properties-common && \
-    rm -rf /var/lib/apt/lists/* && \
+    rm -rf /var/lib/apt/lists/ && \
     apt-add-repository non-free && \
     apt-get -qq update && \
     apt-get -qq install -y pulseaudio mplayer python3 python3-pip && \
