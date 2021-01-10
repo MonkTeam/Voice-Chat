@@ -1,0 +1,46 @@
+{
+    "name": "AiVoiceChat-Bot",
+    "description": "Ai Voice Chat Bot",
+    "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "aria",
+      "python"
+    ],
+    "repository": "https://github.com/MonkTeam/Voice-Chat",
+    "website": "https://t.me/AiTorrent_Ware",
+    "success_url": "https://t.me/AiTorrent_Ware",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "API_ID": {
+        "description": "Get this from https://my.telegram.org",
+        "value": "1667813",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "The telegram bot which works on this groups/owners",
+        "value": "[1004538768, 1327934109, 1054316613, 1152240399]",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this from https://my.telegram.org",
+        "value": "1f6921c27bf6cd01aba471a14ff33bcb",
+        "required": true
+      },
+      "GROUP": {
+        "description": "The ID of the group where your bot streams.,
+        "value": "/app/downloads",
+        "required": false
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
