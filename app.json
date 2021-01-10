@@ -31,13 +31,7 @@
         "description": "Get this from https://my.telegram.org",
         "value": "1f6921c27bf6cd01aba471a14ff33bcb",
         "required": true
-      },
-      "GROUP": {
-        "description": "The ID of the group where your bot streams.,
-        "value": "-1001176749967",
-        "required": false
       }
-    },
     "addons": [
       {
         "plan": "heroku-postgresql"
